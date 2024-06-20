@@ -11,7 +11,7 @@
    }
    stage('Build'){
    steps{
-   bat "dotnet restore"" 
+   bat "dotnet restore"
       bat "dotnet build --configuration Release"
     }
  }
